@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFE DRINK BRASIL</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!-- ligação do layout com a folha de estilo do css 
+         escreva link css Tab
+    -->
+</head>
+
+<body>
+    <!-- Vamos criar as áreas semânticas do site:
+    header -> cabeçalho (barra de navegação = 
+    nav -> barra de navegação entre as páginas)
+    main -> área principal de dados de cada página
+    footer -> rodapé com informações de localização e 
+    rede social
+    -->
+    <!-- Início da área do header -->
+    <header>
+        <h1>COFFE DRINK BRASIL</h1>
+        <!-- nav>ul>li*5>a -->
+        <!--  
+        a= ancora
+        li = lista 
+        ul = marcadores
+        A primeira página de um site sempre se chama INDEX 
+        que seria a home   
+        -->
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="historia.html"> História </a></li>
+                <li><a href="cardapio.html"> Cardápio </a></li>
+                <li><a href="contato.html"> Contato </a></li>
+                <li><a href="localizacao.html"> Localização </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim da área do header -->
+    <!--  Início da área do main -->
+    <main>
+        <h2>Conheça nossa história</h2>
+        <!-- div#imghistoria>img*4 enter -->
+        <!-- buscar no Google "atalhos emmit vscode" -->
+        <div id="imghistoria">
+            <img src="img/cafeteria/img/cafeteria1.jpg" alt="Cafeteria 1">
+            <img src="img/cafeteria/img/cafeteria2.jpg" alt="Cafeteria 2">
+            <img src="img/cafeteria/img/cafeteria3.jpg" alt="Cafeteria 3">
+            <img src="img/cafeteria/img/cafeteria4.jpg" alt="Cafeteria 4">
+        </div> 
+        <!-- p*2>lorem*5 enter   -->
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus eaque enim nobis, neque doloribus ratione aspernatur quas, placeat explicabo qui laudantium asperiores recusandae accusantium quo non, assumenda dolorum quaerat.</span><span>Voluptates aliquam autem amet, sed in maxime modi nisi cupiditate repudiandae totam. Ullam cum esse natus aliquid exercitationem doloremque vero id error in dignissimos voluptas quisquam voluptatem, odit unde nam!</span><span>Omnis ipsam rem illo iure, pariatur odio perspiciatis obcaecati animi quisquam autem non labore, minima recusandae facere laboriosam dolor adipisci. Quia, minus ullam. Ratione dolore sit culpa ea nobis dolorem.</span><span>Ea pariatur excepturi nihil maxime beatae impedit vel, officiis repellendus, a reiciendis iusto ratione voluptatem asperiores sed eligendi voluptas sunt aliquam aspernatur. Doloremque, in obcaecati. Blanditiis dolorem fugit corrupti dolores.</span><span>Aut ut reprehenderit atque commodi sit ducimus eaque saepe temporibus, deleniti quia consectetur beatae, delectus cumque quidem nesciunt molestiae hic aliquid molestias! Accusamus temporibus doloribus in modi atque harum laborum?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim neque dignissimos natus magnam consequatur totam impedit ea eum ducimus ipsum. Libero, sit eligendi optio ut accusantium ipsam! Explicabo, architecto provident?</span><span>Ex labore cum, sint sit deleniti possimus quasi, assumenda sed dignissimos, minima magni corporis autem cupiditate voluptatum ipsum. Quasi aliquam impedit deleniti est qui. Minus aperiam iure quam unde qui.</span><span>Nesciunt doloremque quaerat impedit officiis culpa maxime, laborum dolorum? Tempore, deserunt! Tempore facere accusamus, atque nostrum, quasi corporis qui dolore, voluptatibus aut nemo sapiente repudiandae. Laudantium esse et assumenda sequi?</span><span>Illum quos, dignissimos quisquam exercitationem molestias non repudiandae et aliquam rem illo qui distinctio quae quam, deleniti molestiae eaque ratione? Eligendi corrupti doloremque fugiat reprehenderit pariatur natus tempore repellat labore?</span><span>A placeat suscipit provident eligendi quisquam quasi tempora laboriosam recusandae debitis impedit dolor nesciunt, quam, obcaecati iure id maxime fugiat modi sit magnam aspernatur adipisci! Ratione possimus numquam quos officiis?</span></p>
+        <!-- para colocar um vídeo do youtube, compartilhar - INCORPORAR - copiar o código -->
+        <!-- colocar o vídeo dentro de um conteiner -->
+        <!-- div#video -->
+        <!-- deletar o trecho de largura e altura do Youtube (width="560" height="315")
+            e fazer a minha no CSS -->
+        <div id="video">
+            <iframe src="https://www.youtube.com/embed/B1yJuGQOUaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        </div>
+        
+    </main>
+    <!--  Fim da área do main -->
+
+    <!--  Início da área do footer -->
+    <!-- footer>div*2 
+        dividido em duas áreas iguais 
+        id para identificar "end" de endereço 
+     -->
+    <footer>
+        <div id="end">
+            <p>Rua Valsa dos casais, 79 - São Paulo - SP</p>
+            <p>CEP (12345-678) - Telfone: 11-9-12345678</p>
+            <p>E-mail: contato@coffedrinkbrasil.com.br</p>
+        </div>
+        <!-- target="_blank" para abrir o link de outro site em 
+          nova janela -->
+        <div id="redes">
+            <a href="http://www.facebook.com" target="_blank">
+                <img src="img/cafeteria/img/facebook.png">
+            </a>
+            <a href="http://www.instagram.com" target="_blank">
+                <img src="img/cafeteria/img/instagram.png">
+            </a>
+            <a href="http://www.youtube.com" target="_blank">
+                <img src="img/cafeteria/img/youtube.png">
+            </a>
+            <a href="http://www.twitter.com" target="_blank">
+                <img src="img/cafeteria/img/twitter.png">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
