@@ -7,7 +7,7 @@ aos navegadores que TODOS os elementos da tela receberão esta formatação*/
   /* Vamos aplicar na tag header cor de fndo e padding */
   header {
     /* escrever o caminho da imagem */
-    background-image: url("../img/fundo5.jpg");
+    background-image: url("../img/cafeteria/img/fundo5.jpg");
     /* para não repetir a imagem */
     background-size: 100%;
     /* deslocar as imagens X e Y*/
@@ -178,19 +178,19 @@ aos navegadores que TODOS os elementos da tela receberão esta formatação*/
   
   /* colocar borda em todas as DIV's para saber quem é quem */
   /* tudo que tem # é ID é uma DIV */
-  /* main #area,  
-  main #area #conteudo, 
-  main #area #conteudo #img, 
-  main #area #conteudo #texto{
+  /* main .area,  
+  main .area .conteudo, 
+  main .area .conteudo .imagem, 
+  main .area .conteudo .texto{
     border: 2px solid greenyellow;
   }*/
   
   /* repete os dois img: um é DIV e o outro é uma tag */
-  main #area #conteudo #img img {
+  main .area .conteudo .imagem img {
     width: 200px;
     height: 180px;
   }
-  main #area #conteudo #img {
+  main .area .conteudo .imagem {
     /* largura da caixa da imagem */
     width: 210px;
     /* Fazer a caixa de imagem flutuar para a esquerda, 
@@ -198,7 +198,7 @@ aos navegadores que TODOS os elementos da tela receberão esta formatação*/
     float: left;
   }
   /* largura da caixa do texto*/
-  main #area #conteudo #texto {
+  main .area .conteudo .texto {
     width: 800px;
     /* Fazer a caixa de texto flutuar para a esquerda, 
      para ficar lado a lado com a imagem */
@@ -206,20 +206,20 @@ aos navegadores que TODOS os elementos da tela receberão esta formatação*/
   }
   /* aplicar a exibição (display) inline-block para as 
   caixas area e conteudo (para as duas separadas por vírgula)*/
-  main #area,
-  main #area #conteudo {
+  main .area,
+  main .area .conteudo {
     display: inline-block;
     width: 90%;
   }
-  main #area #conteudo #texto h5 {
+  main .area .conteudo .texto h5 {
     font-family: arial;
     font-size: 14pt;
     margin: 5px;
   }
-  main #area #conteudo #texto span {
+  main .area .conteudo .texto span {
     color: red;
   }
-  main #area #conteudo {
+  main .area .conteudo {
     /* desprender do canto esquerdo */
     margin-left: 50px;
     /*aplicar uma borda na parte inferior desta caixa*/
